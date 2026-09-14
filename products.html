@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneakers | SoleStreet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">SOLE<span>STREET</span></a>
+    <nav><a href="index.html">Home</a><a class="active" href="products.html">Sneakers</a><a href="cart.html">Cart <b id="cartCount">0</b></a></nav>
+  </header>
+
+  <main class="section products-page">
+    <div class="page-heading">
+      <p class="eyebrow">THE COLLECTION</p>
+      <h1>Find Your Pair.</h1>
+      <p>Choose from our latest streetwear-inspired sneaker collection.</p>
+    </div>
+    <div class="toolbar">
+      <input id="searchInput" type="search" placeholder="Search sneakers...">
+      <select id="categoryFilter"><option value="all">All Categories</option><option value="Running">Running</option><option value="Lifestyle">Lifestyle</option><option value="Basketball">Basketball</option></select>
+    </div>
+    <div id="productGrid" class="product-grid"></div>
+  </main>
+
+  <footer><p>© 2026 SoleStreet. College TW–1 Project.</p></footer>
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
